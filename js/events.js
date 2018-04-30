@@ -7,8 +7,8 @@ function getIt() {
   })
 }
 function pressIt() {
-  $('input').on('keydown', functon(e) {
-    if (e.which === 71) {
+  $('input').on('keydown', functon() {
+    if ('keydown'.which === 71) {
       alert('You have pressed the key G!')
     }
     else {
