@@ -1,7 +1,8 @@
 //define functions here
 function frameIt() {
-	$('img').on('load', addClass('tasty') {
-	} )
+  ('img').on('load', function() {
+    class = 'tasty'
+  } )
 }
 
 
