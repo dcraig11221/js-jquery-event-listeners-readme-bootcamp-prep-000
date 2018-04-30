@@ -1,8 +1,7 @@
 //define functions here
-function submitIt() {
-	$('form').on('submit', function() {
-		alert('Your form is going to be submitted now.')
-	})
+function frameIt() {
+	$('img').on('load', addClass('tasty') {
+	} )
 }
 
 
