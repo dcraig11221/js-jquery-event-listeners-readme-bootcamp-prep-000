@@ -1,9 +1,7 @@
 //define functions here
-function pressIt() {
-	$('input').on('keydown', function(key) {
-		if (key.which === 71) {
-			alert('You have pressed the G key!')
-		}
+function submitIt() {
+	$('input:submit').on('click', function() {
+		alert('Your form is going to be submitted now.')
 	})
 }
 
