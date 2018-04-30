@@ -1,5 +1,5 @@
 //define functions here
-function xsubmitIt() {
+function submitIt() {
 	$('form').on('submit', function() {
 		alert('Your form is going to be submitted now.')
 	})
