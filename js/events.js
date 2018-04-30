@@ -1,6 +1,6 @@
 //define functions here
 function submitIt() {
-	$('input:submit').on('click', function() {
+	$('form').on('click', function() {
 		alert('Your form is going to be submitted now.')
 	})
 }
