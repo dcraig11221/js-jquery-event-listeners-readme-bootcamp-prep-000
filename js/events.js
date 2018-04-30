@@ -1,10 +1,10 @@
 //define functions here
-function getIt() {
-  $('p').on('click', function() {
-    if ('click'){
-      alert("Hey!")
-    }
-  })
+function pressIt() {
+	$('input').on('keydown', function(key) {
+		if (key.which === 71) {
+			alert('You have pressed the G key!')
+		}
+	})
 }
 
 
