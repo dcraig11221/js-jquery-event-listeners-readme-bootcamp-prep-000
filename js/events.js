@@ -8,7 +8,7 @@
 }
 */
 function frameIt() {
-  $(document).on('load', function() {
+  $(document).load(function() {
     $('img').addClass("tasty")
   })
 }
