@@ -1,7 +1,7 @@
 //define functions here
 function frameIt() {
   ('img').on('load', function() {
-    class = 'tasty'
+    addClass('tasty')
   } )
 }
 
